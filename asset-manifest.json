@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Drink-water/static/css/main.79153fed.chunk.css",
-    "main.js": "/Drink-water/static/js/main.ab0f73f9.chunk.js",
-    "main.js.map": "/Drink-water/static/js/main.ab0f73f9.chunk.js.map",
+    "main.css": "/Drink-water/static/css/main.c6d23ed8.chunk.css",
+    "main.js": "/Drink-water/static/js/main.0e1a2c3a.chunk.js",
+    "main.js.map": "/Drink-water/static/js/main.0e1a2c3a.chunk.js.map",
     "runtime-main.js": "/Drink-water/static/js/runtime-main.54081c5f.js",
     "runtime-main.js.map": "/Drink-water/static/js/runtime-main.54081c5f.js.map",
-    "static/js/2.ec1c03be.chunk.js": "/Drink-water/static/js/2.ec1c03be.chunk.js",
-    "static/js/2.ec1c03be.chunk.js.map": "/Drink-water/static/js/2.ec1c03be.chunk.js.map",
+    "static/js/2.75a45cae.chunk.js": "/Drink-water/static/js/2.75a45cae.chunk.js",
+    "static/js/2.75a45cae.chunk.js.map": "/Drink-water/static/js/2.75a45cae.chunk.js.map",
     "index.html": "/Drink-water/index.html",
-    "static/css/main.79153fed.chunk.css.map": "/Drink-water/static/css/main.79153fed.chunk.css.map",
-    "static/js/2.ec1c03be.chunk.js.LICENSE.txt": "/Drink-water/static/js/2.ec1c03be.chunk.js.LICENSE.txt"
+    "static/css/main.c6d23ed8.chunk.css.map": "/Drink-water/static/css/main.c6d23ed8.chunk.css.map",
+    "static/js/2.75a45cae.chunk.js.LICENSE.txt": "/Drink-water/static/js/2.75a45cae.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54081c5f.js",
-    "static/js/2.ec1c03be.chunk.js",
-    "static/css/main.79153fed.chunk.css",
-    "static/js/main.ab0f73f9.chunk.js"
+    "static/js/2.75a45cae.chunk.js",
+    "static/css/main.c6d23ed8.chunk.css",
+    "static/js/main.0e1a2c3a.chunk.js"
   ]
 }
