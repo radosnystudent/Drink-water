@@ -1,0 +1,47 @@
+@import "../../../sass/constans";
+
+.cup {
+    background-color: $white-color;
+    border: 4px solid $border-color;
+    color: $border-color;
+    border-radius: 0 0 40px 40px;
+    height: 330px;
+    width: 150px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.remainded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+    transition: height 0.3s ease;
+}
+
+.remainded span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.remainded small {
+    font-size: 20px;
+}
+
+.percentage {
+    height: 0px;
+    background-color: $fill-color; //$white-color;
+    font-size: 30px;
+    font-weight: bold;
+    visibility: hidden;
+    // height: 33px;
+    // color: #000;
+    transition: height 0.3s ease;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+}

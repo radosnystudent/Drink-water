@@ -1,0 +1,34 @@
+@import "../../../sass/constans";
+
+.cup-small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px 8px;
+    width: 60px;
+    height: 95px;
+
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 4px solid $border-color;
+    border-radius: 0 0 25px 25px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: $border-color;
+
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.cup-small.full {
+    background-color: $fill-color;
+    color: $white-color;
+}
+
+.cup-small:active {
+    transform: scale(0.88);
+}
