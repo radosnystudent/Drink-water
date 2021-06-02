@@ -1,14 +1,20 @@
-import "./styles/App.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import Credits from "./components/Credits/Credits";
+import Footer from "./containers/Footer/Footer";
+import Navbar from "./containers/Navbar/Navbar";
 import DrinkWater from "./pages/DrinkWater/DrinkWater";
 
 function App() {
     return (
-        <>
-            <DrinkWater />
-            <Credits />
-        </>
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route path="/">
+                    <DrinkWater />
+                </Route>
+            </Switch>
+            <Footer />
+        </Router>
     );
 }
 

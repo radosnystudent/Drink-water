@@ -1,0 +1,15 @@
+@import "../../../styles/constans";
+
+.navlink {
+    padding: 10px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: $navbar-link;
+}
+
+.active-page {
+    color: $fill-color;
+    text-decoration: underline;
+}

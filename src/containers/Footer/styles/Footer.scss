@@ -1,0 +1,18 @@
+@import "../../../styles/constans";
+
+.Footer {
+    position: relative;
+    width: 100%;
+    background-color: $page-footer;
+    height: 25px;
+}
+
+@media (max-width: 600px) {
+    .Footer {
+        height: 20px;
+    }
+
+    .Footer p {
+        font-size: 11px;
+    }
+}
