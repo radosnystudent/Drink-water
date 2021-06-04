@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Drink-water/static/css/main.91740837.chunk.css",
-    "main.js": "/Drink-water/static/js/main.4222bad9.chunk.js",
-    "main.js.map": "/Drink-water/static/js/main.4222bad9.chunk.js.map",
+    "main.js": "/Drink-water/static/js/main.97787f48.chunk.js",
+    "main.js.map": "/Drink-water/static/js/main.97787f48.chunk.js.map",
     "runtime-main.js": "/Drink-water/static/js/runtime-main.54081c5f.js",
     "runtime-main.js.map": "/Drink-water/static/js/runtime-main.54081c5f.js.map",
     "static/js/2.79d522d2.chunk.js": "/Drink-water/static/js/2.79d522d2.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.54081c5f.js",
     "static/js/2.79d522d2.chunk.js",
     "static/css/main.91740837.chunk.css",
-    "static/js/main.4222bad9.chunk.js"
+    "static/js/main.97787f48.chunk.js"
   ]
 }
