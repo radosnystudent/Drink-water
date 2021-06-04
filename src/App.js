@@ -13,7 +13,7 @@ function App() {
                 <Route path="/drinkwater">
                     <DrinkWater />
                 </Route>
-                <Route path="/">
+                <Route path="/Drink-water/">
                     <Homepage />
                 </Route>
             </Switch>

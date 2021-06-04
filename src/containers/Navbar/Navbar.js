@@ -2,7 +2,7 @@ import Navlink from "../../components/NavLink/NavLink";
 import "./styles/Navbar.scss";
 
 const pages = [
-    { title: "Homepage", url: "/" },
+    { title: "Strona główna", url: "/Drink-water" },
     { title: "Drinkwater", url: "/drinkwater" },
 ];
 
