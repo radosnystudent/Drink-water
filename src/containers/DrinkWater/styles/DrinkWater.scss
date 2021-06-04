@@ -1,0 +1,36 @@
+@import "../../../styles/constans";
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap");
+
+.drink-container {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drink-buttons-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drink-container .page-title {
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    color: $white-color;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    top: 2%;
+}
+
+.selected-color {
+    font-family: "Roboto", sans-serif;
+    color: $white-color;
+    text-align: center;
+    letter-spacing: 1px;
+}

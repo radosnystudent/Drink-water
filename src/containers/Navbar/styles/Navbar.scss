@@ -6,7 +6,7 @@
     background-color: $page-footer;
     margin: 0;
     display: flex;
-    position: relative;
+    // position: relative;
 }
 
 .navbar-container ul {
@@ -18,17 +18,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
+    // position: absolute;
+    & > li {
+        font-size: 28px;
+    }
 }
 
 @media (max-width: 600px) {
-    .navbar-container {
-        position: static;
-    }
-
     .navbar-container ul {
-        position: static;
+        justify-content: center;
+
+        & > li {
+            font-size: 20px;
+        }
     }
 }

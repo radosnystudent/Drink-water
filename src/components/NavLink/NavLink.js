@@ -7,6 +7,7 @@ function Navlink({ page }) {
         <li className="navlink">
             <NavLink
                 className="navbar-link"
+                exact
                 activeClassName="active-page"
                 to={page.url}
             >
