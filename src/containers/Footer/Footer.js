@@ -9,13 +9,13 @@ function Footer() {
     return (
         <footer className="Footer">
             <Credits label={"Webapge made by Jeremiasz Pauszek, 2021"} />
-            <Credits label={iconCredits.label}>
+            <Credits>
                 <a
                     rel="noopener noreferrer"
                     target="_blank"
                     href="https://iconpacks.net/?utm_source=link-attribution&utm_content=1562"
                 >
-                    Iconpacks
+                    Website icon by Iconpack
                 </a>
             </Credits>
         </footer>

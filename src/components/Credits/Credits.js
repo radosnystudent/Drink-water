@@ -3,7 +3,7 @@ import "./styles/Credits.scss";
 function Credits({ label, children }) {
     return (
         <p className="credits-content">
-            {label}
+            {label ? label : null}
             {children ? children : null}
         </p>
     );

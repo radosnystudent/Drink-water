@@ -1,7 +1,7 @@
 @import "../../../styles/constans";
 
 .homepage-container {
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background-color: $page-background;
     margin: 0;
@@ -26,6 +26,7 @@
 
     & > .homepage-paragraph {
         width: 400px;
+        padding: 10px;
     }
 }
 

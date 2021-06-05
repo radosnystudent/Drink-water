@@ -3,7 +3,7 @@ import "./styles/Navbar.scss";
 
 const pages = [
     { title: "Strona główna", url: "/Drink-water" },
-    { title: "Drinkwater", url: "/drinkwater" },
+    { title: "Drinkwater", url: "/Drink-water/drinkwater" },
 ];
 
 function Navbar() {

@@ -5,10 +5,13 @@
     justify-content: center;
     width: 100%;
     background-color: $page-footer;
+    position: fixed;
+    bottom: 0;
 }
 
 @media (max-width: 600px) {
     .Footer {
         flex-direction: column;
+        position: relative;
     }
 }

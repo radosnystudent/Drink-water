@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Route,
+    Switch,
+    // HashRouter,
+} from "react-router-dom";
 
 import Footer from "./containers/Footer/Footer";
 import Navbar from "./containers/Navbar/Navbar";
@@ -10,10 +15,10 @@ function App() {
         <Router>
             <Navbar />
             <Switch>
-                <Route path="/drinkwater">
+                <Route path="/Drink-water/drinkwater">
                     <DrinkWater />
                 </Route>
-                <Route path="/Drink-water/">
+                <Route path={"/Drink-water"}>
                     <Homepage />
                 </Route>
             </Switch>

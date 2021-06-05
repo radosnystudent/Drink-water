@@ -3,20 +3,17 @@
 .app-container {
     background-color: $page-background;
     width: 100%;
-
-    min-height: 90vh;
-
     display: flex;
+    height: 100%;
 
     align-items: center;
     justify-content: center;
-    position: relative;
 }
 
 @media (max-width: 600px) {
     .app-container {
         flex-direction: column;
-        overflow-y: scroll;
-        height: 100%;
+
+        height: max-content;
     }
 }
